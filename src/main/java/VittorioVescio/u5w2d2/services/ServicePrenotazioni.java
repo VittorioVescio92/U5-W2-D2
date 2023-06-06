@@ -39,13 +39,13 @@ public class ServicePrenotazioni {
 		return this.prenotazioni;
 	}
 
-	public void nuovaPrenotazione(Prenotazione prenotazione) throws Exception {
-		if(prenotazione.getPostazione().isDisponibile()) {
-			this.prenotazioni.add(prenotazione);
-		}
-	}else
+//	public void nuovaPrenotazione(Prenotazione prenotazione) throws Exception {
+//		if(prenotazione.getPostazione().isDisponibile()) {
+//			this.prenotazioni.add(prenotazione);
+//		}
+//	}else
+//
+//	{
 
-	{
-
-	}
+//	}
 }
